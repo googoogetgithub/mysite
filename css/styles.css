@@ -154,3 +154,10 @@ section {
   }
 
 }
+
+
+article {
+  background:#EEEEEE;
+  border:solid 1px white;
+  margin-top:10em;
+}

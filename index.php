@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit|Prompt" >
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Find Your GD Home! </title>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/contentLoader.js"></script>
+
   </head>
   <body>
 
-    
+
     <header>This line is added from GITHUB UI</header>
 
       <nav>
@@ -24,13 +27,16 @@
               </div>
 
             </li>
-            <li><a href="">Buy</a></li>
-            <li><a href="">Rent</a></li>
-            <li><a href="">Promotion</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="content_01.html" class="load-content" data-target="article:first" target="_blank">Buy</a></li>
+            <li><a href="content_02.html" class="load-content" data-target="article:first" target="_blank">Rent</a></li>
+            <li><a href="content_03.html" class="load-content" data-target="article:first" target="_blank">Promotion</a></li>
+            <li><a href="random_text.php" class="load-content" data-target="article:first" target="_blank">About</a></li>
         </ul>
       </nav>
 
+      <article>
+        Main article here
+      </article>
 
 
       <container>
@@ -43,8 +49,12 @@
             บัดซบจริงๆเลย<br /><br />
         </section>
       </container>
+
+
+
+
   </body>
 
 
-  
+
 </html>
